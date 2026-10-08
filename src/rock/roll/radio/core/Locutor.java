@@ -13,4 +13,12 @@ import java.util.List;
  */
 public class Locutor extends Persona {
     private List<Emision> emisiones;
+
+    public Locutor(String nombre) {
+        super(nombre);
+    }
+    
+
+    
+    
 }

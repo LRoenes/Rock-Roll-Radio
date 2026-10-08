@@ -12,4 +12,5 @@ import java.util.List;
  */
 public class Invitado extends Persona {
     private List<Emision> emisiones;
+    
 }
