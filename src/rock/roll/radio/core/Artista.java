@@ -4,6 +4,7 @@
  */
 package rock.roll.radio.core;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ public class Artista extends Persona{
 
     public Artista(List<Cancion> canciones, String nombre) {
         super(nombre);
-        this.canciones = canciones;
+        this.canciones = new ArrayList<>();
     }
     
         

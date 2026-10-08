@@ -4,6 +4,7 @@
  */
 package rock.roll.radio.core;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -16,9 +17,16 @@ public class RockRollRadio {
     private List<Invitado> invitados;
     private List<Locutor> locutores;
     private List<Programa> programas;
+    private List<Emision> emisiones;
      
     
     public RockRollRadio() {
+        this.artistas = new ArrayList<>();
+        this.canciones = new ArrayList<>();
+        this.invitados = new ArrayList<>();
+        this.locutores = new ArrayList<>();
+        this.programas = new ArrayList<>();
+        this.emisiones = new ArrayList<>();
     }
     
     
