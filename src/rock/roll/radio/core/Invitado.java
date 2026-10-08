@@ -4,6 +4,7 @@
  */
 package rock.roll.radio.core;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,8 +16,10 @@ import java.util.List;
 public class Invitado extends Persona {
     private List<Emision> emisiones;
 
-    public Invitado(String nombre) {
+    public Invitado(String nombre, Emision emision) {
         super(nombre);
+        this.emisiones = new ArrayList<>();
+        this.emisiones.add(emision);
     }
     
 }
