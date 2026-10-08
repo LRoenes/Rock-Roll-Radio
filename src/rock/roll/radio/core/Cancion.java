@@ -8,6 +8,6 @@ package rock.roll.radio.core;
  *
  * @author Revan
  */
-class Cancion {
+public class Cancion {
     
 }

@@ -8,6 +8,6 @@ package rock.roll.radio.core;
  *
  * @author Revan
  */
-class Invitado {
+public class Invitado {
     
 }

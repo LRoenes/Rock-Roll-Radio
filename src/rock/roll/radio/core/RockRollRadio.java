@@ -55,5 +55,8 @@ public class RockRollRadio {
     public Emision getEmision(int index) {
         return emisiones.get(index);
     }
-  
+    
+    public Programa getProgramaConMasCancionesDeArtista(Artista a){
+        return null;    
+    }
 }

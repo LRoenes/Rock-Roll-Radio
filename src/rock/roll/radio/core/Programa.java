@@ -18,7 +18,4 @@ class Programa {
         return null;
     }
     
-    public void addCancion(Cancion c){
-        canciones.add(c);
-    }
 }
