@@ -10,11 +10,15 @@ package rock.roll.radio.core;
  */
 
 public class Cancion {
-    
-
-
-public class Cancion {
     private String nombre;
     private Artista artista;
     private Genero genero;
+
+    public Cancion(String nombre, Artista artista, Genero genero) {
+        this.nombre = nombre;
+        this.artista = artista;
+        this.genero = genero;
+    }
+    
+    
 }

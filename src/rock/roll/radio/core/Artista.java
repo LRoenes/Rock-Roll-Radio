@@ -10,6 +10,13 @@ import java.util.List;
  *
  * @author Revan
  */
-public class Artista {
+public class Artista extends Persona{
     private List<Cancion> canciones;
+
+    public Artista(List<Cancion> canciones, String nombre) {
+        super(nombre);
+        this.canciones = canciones;
+    }
+    
+        
 }
