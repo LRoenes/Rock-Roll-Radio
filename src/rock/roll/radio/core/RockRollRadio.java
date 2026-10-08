@@ -29,7 +29,9 @@ public class RockRollRadio {
         this.emisiones = new ArrayList<>();
     }
     
-    
+    public void addCancion(Cancion cancion){
+        
+    }
     
     public void addArtista(Artista a) {
         artistas.add(a);
