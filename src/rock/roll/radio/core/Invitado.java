@@ -16,10 +16,9 @@ import java.util.List;
 public class Invitado extends Persona {
     private List<Emision> emisiones;
 
-    public Invitado(String nombre, Emision emision) {
+    public Invitado(String nombre) {
         super(nombre);
         this.emisiones = new ArrayList<>();
-        this.emisiones.add(emision);
     }
     
 }

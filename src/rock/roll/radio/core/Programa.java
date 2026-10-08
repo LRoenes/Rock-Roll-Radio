@@ -21,6 +21,7 @@ public class Programa {
         this.nombre = nombre;
         this.locutores = new ArrayList<>();
         this.locutores.add(locutor);
+        this.emisiones = new ArrayList<>();
     }
     
     

@@ -30,7 +30,6 @@ public class RockRollRadio {
     }
     
     
-    
     public void addArtista(Artista a) {
         this.artistas.add(a);
     }
@@ -39,7 +38,7 @@ public class RockRollRadio {
         this.canciones.add(c);
     }
 
-    public void addInvitado(Invitado i) {
+    public void addInvitado(Invitado i, Emision e) {
         this.invitados.add(i);
     }
 

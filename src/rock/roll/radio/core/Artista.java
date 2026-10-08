@@ -14,7 +14,7 @@ import java.util.List;
 public class Artista extends Persona{
     private List<Cancion> canciones;
 
-    public Artista(List<Cancion> canciones, String nombre) {
+    public Artista(String nombre) {
         super(nombre);
         this.canciones = new ArrayList<>();
     }
