@@ -10,4 +10,15 @@ package rock.roll.radio.core;
  */
 class Programa {
     
+    public String getNombre(){
+        return this.nombre;
+    }
+    
+    public Emision getLastEmision(){
+        return null;
+    }
+    
+    public void addCancion(Cancion c){
+        canciones.add(c);
+    }
 }
