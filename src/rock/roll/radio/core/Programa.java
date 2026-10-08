@@ -16,6 +16,8 @@ public class Programa {
     private List<Emision> emisiones;
     private List<Locutor> locutores;
     
+    
+    
     public String getNombre(){
         return this.nombre;
     }

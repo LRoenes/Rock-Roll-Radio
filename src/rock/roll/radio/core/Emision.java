@@ -4,6 +4,7 @@
  */
 package rock.roll.radio.core;
 
+import java.util.ArrayList;
 import rock.roll.radio.core.Cancion;
 import java.util.List;
 
@@ -17,7 +18,13 @@ public class Emision {
     private List<Cancion> canciones;
     private List<Invitado> invitados;
     private Programa programa;
-    
+
+    public Emision(Programa programa) {
+        this.programa = programa;
+        this.canciones = new ArrayList<>();
+        this.invitados = new ArrayList<>();
+    }
+
     public void addCancion(Cancion c) {
         canciones.add(c);
     }
