@@ -29,50 +29,52 @@ public class RockRollRadio {
         this.emisiones = new ArrayList<>();
     }
     
-    public void addCancion(Cancion cancion){
-        
-    }
     
     public void addArtista(Artista a) {
-        artistas.add(a);
+        this.artistas.add(a);
     }
+    
+    public void addCancion(Cancion c){
+        this.canciones.add(c);
+    }
+
 
     public void addInvitado(Invitado i, Emision emision) {
         i.addEmision(emision);
-        invitados.add(i);
-        
+        this.invitados.add(i);
+
     }
 
     public Artista getArtista(int index) {
-        return artistas.get(index);
+        return this.artistas.get(index);
     }
 
     public Cancion getCancion(int index) {
-        return canciones.get(index);
+        return this.canciones.get(index);
     }
 
     public void addPrograma(Programa p) {
-        programas.add(p);
+        this.programas.add(p);
     }
 
     public Programa getPrograma(int index) {
-        return programas.get(index);
+        return this.programas.get(index);
     }
 
     public void addLocutor(Locutor l) {
-        locutores.add(l);
+        this.locutores.add(l);
     }
 
     public Locutor getLocutor(int index) {
-        return locutores.get(index);
+        return this.locutores.get(index);
     }
 
     public void addEmision(Emision e) {
-        emisiones.add(e);
+        this.emisiones.add(e);
     }
 
     public Emision getEmision(int index) {
-        return emisiones.get(index);
+        return null;
     }
     
     public Programa getProgramaConMasCancionesDeArtista(Artista a){

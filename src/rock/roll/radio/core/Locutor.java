@@ -4,6 +4,7 @@
  */
 package rock.roll.radio.core;
 
+import java.util.ArrayList;
 import rock.roll.radio.core.Emision;
 import java.util.List;
 
@@ -16,6 +17,7 @@ public class Locutor extends Persona {
 
     public Locutor(String nombre) {
         super(nombre);
+        this.emisiones = new ArrayList<>();
     }
     
 
