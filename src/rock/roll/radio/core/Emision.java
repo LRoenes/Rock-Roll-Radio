@@ -14,4 +14,6 @@ import java.util.List;
 class Emision {
     private int serial;
     private List<Cancion> canciones;
+    private List<Invitado> invitados;
+    private Programa programa;
 }

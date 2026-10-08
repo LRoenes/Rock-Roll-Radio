@@ -4,10 +4,12 @@
  */
 package rock.roll.radio.core;
 
+import java.util.List;
+
 /**
  *
  * @author Revan
  */
-class Invitado {
-    
+class Invitado extends Persona {
+    private List<Emision> emisiones;
 }

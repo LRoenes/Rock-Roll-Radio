@@ -4,11 +4,17 @@
  */
 package rock.roll.radio.core;
 
+import java.util.List;
+
 /**
  *
  * @author Revan
  */
 class Programa {
+    private String nombre;
+    private int serial;
+    private List<Emision> emisiones;
+    private List<Locutor> locutores;
     
     public String getNombre(){
         return this.nombre;
@@ -18,7 +24,5 @@ class Programa {
         return null;
     }
     
-    public void addCancion(Cancion c){
-        canciones.add(c);
-    }
+
 }

@@ -4,10 +4,12 @@
  */
 package rock.roll.radio.core;
 
+import java.util.List;
+
 /**
  *
  * @author Revan
  */
 public class Artista {
-    
+    private List<Cancion> canciones;
 }
