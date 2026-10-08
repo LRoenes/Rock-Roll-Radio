@@ -37,8 +37,10 @@ public class RockRollRadio {
         artistas.add(a);
     }
 
-    public void addInvitado(Invitado i) {
+    public void addInvitado(Invitado i, Emision emision) {
+        i.addEmision(emision);
         invitados.add(i);
+        
     }
 
     public Artista getArtista(int index) {
