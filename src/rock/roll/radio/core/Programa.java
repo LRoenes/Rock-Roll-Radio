@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author Revan
  */
-class Programa {
+public class Programa {
     private String nombre;
     private int serial;
     private List<Emision> emisiones;

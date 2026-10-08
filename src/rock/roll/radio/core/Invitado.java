@@ -10,6 +10,6 @@ import java.util.List;
  *
  * @author Revan
  */
-class Invitado extends Persona {
+public class Invitado extends Persona {
     private List<Emision> emisiones;
 }

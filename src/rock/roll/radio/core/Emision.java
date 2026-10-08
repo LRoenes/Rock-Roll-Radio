@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author Revan
  */
-class Emision {
+public class Emision {
     private int serial;
     private List<Cancion> canciones;
     private List<Invitado> invitados;
