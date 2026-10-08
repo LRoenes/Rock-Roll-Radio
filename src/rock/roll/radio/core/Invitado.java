@@ -11,10 +11,12 @@ import java.util.List;
  * @author Revan
  */
 
-public class Invitado {
-    
 
 public class Invitado extends Persona {
     private List<Emision> emisiones;
+
+    public Invitado(String nombre) {
+        super(nombre);
+    }
     
 }

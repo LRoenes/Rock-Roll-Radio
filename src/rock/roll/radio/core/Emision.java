@@ -12,18 +12,15 @@ import java.util.List;
  * @author Revan
  */
 public class Emision {
-
-
+    
     private int serial;
     private List<Cancion> canciones;
+    private List<Invitado> invitados;
+    private Programa programa;
     
     public void addCancion(Cancion c) {
         canciones.add(c);
     }
 
-    private int serial;
-    private List<Cancion> canciones;
-    private List<Invitado> invitados;
-    private Programa programa;
 
 }
