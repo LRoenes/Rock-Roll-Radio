@@ -2,14 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package rock.roll.radio;
-
-import java.util.List;
+package rock.roll.radio.core;
 
 /**
  *
  * @author Revan
  */
-public class Locutor extends Persona {
-    private List<Emision> emisiones;
+public abstract class Persona {
+    protected String nombre;
 }
