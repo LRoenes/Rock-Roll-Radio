@@ -4,11 +4,18 @@
  */
 package rock.roll.radio.core;
 
+import java.util.List;
+
 /**
  *
  * @author Luis
  */
 public class RockRollRadio {
+    private List<Artista> artistas;
+    private List<Cancion> canciones;
+    private List<Invitado> invitados;
+    private List<Locutor> locutores;
+    private List<Programa> programas;
      
     
     public RockRollRadio() {

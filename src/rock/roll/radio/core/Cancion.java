@@ -8,6 +8,13 @@ package rock.roll.radio.core;
  *
  * @author Revan
  */
+
 public class Cancion {
     
+
+
+public class Cancion {
+    private String nombre;
+    private Artista artista;
+    private Genero genero;
 }

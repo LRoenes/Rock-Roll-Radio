@@ -8,6 +8,8 @@ package rock.roll.radio.core;
  *
  * @author Revan
  */
-public class Genero {
-    
+public enum Genero {
+    ROCK,
+    CLASICA,
+    TROPICAL,
 }

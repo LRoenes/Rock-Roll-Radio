@@ -13,10 +13,17 @@ import java.util.List;
  */
 public class Emision {
 
+
     private int serial;
     private List<Cancion> canciones;
     
     public void addCancion(Cancion c) {
         canciones.add(c);
     }
+
+    private int serial;
+    private List<Cancion> canciones;
+    private List<Invitado> invitados;
+    private Programa programa;
+
 }
