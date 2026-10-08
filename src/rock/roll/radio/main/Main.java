@@ -8,7 +8,9 @@ import rock.roll.radio.core.Artista;
 import rock.roll.radio.core.Cancion;
 import rock.roll.radio.core.Emision;
 import rock.roll.radio.core.Genero;
+import rock.roll.radio.core.Invitado;
 import rock.roll.radio.core.Locutor;
+import rock.roll.radio.core.Programa;
 import rock.roll.radio.core.RockRollRadio;
 
 /**

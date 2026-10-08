@@ -4,6 +4,7 @@
  */
 package rock.roll.radio.core;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -16,6 +17,11 @@ public class Programa {
     private List<Emision> emisiones;
     private List<Locutor> locutores;
     
+    public Programa(String nombre, Locutor locutor){
+        this.nombre = nombre;
+        this.locutores = new ArrayList<>();
+        this.locutores.add(locutor);
+    }
     
     
     public String getNombre(){
