@@ -18,6 +18,10 @@ public class Artista extends Persona{
         super(nombre);
         this.canciones = new ArrayList<>();
     }
+
+    public String getNombre() {
+        return nombre;
+    }
     
         
 }

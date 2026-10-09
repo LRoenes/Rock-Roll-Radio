@@ -48,6 +48,9 @@ public class RockRollRadio {
     public Artista getArtista(int index) {
         return this.artistas.get(index);
     }
+    public List<Artista> getArtistas(){
+        return this.artistas;
+    }
 
     public Cancion getCancion(int index) {
         return this.canciones.get(index);
@@ -74,7 +77,11 @@ public class RockRollRadio {
     }
 
     public Emision getEmision(int index) {
-        return null;
+        return this.emisiones.get(index);
+    }
+    public Emision getLastEmision(){
+        Emision resultado = this.emisiones.get(this.emisiones.size());
+        return resultado;
     }
     
     public Programa getProgramaConMasCancionesDeArtista(Artista a){
